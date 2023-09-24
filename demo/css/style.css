@@ -1,0 +1,27 @@
+/* Oef 1: Rainbow styling */
+.rainbow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rainbow .block {
+    background-color: hsl(1, 100%, 50%);
+    width: 18px;
+    height: 20px;
+    margin: 1px;
+}
+
+/* .number {
+    color: #0a3587;
+} */
+
+/* Oefening 2: Colors via array styling */
+
+.rainbow-cards {
+    width: 19%;
+}
+
+.card {
+    margin-top: 5px;
+    height: 7rem;
+}

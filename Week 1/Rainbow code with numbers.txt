@@ -1,0 +1,8 @@
+<div class="rainbow">
+    <?php
+
+    for ( $hue = 1; $hue <= 360 ; $hue++ ) {
+        echo '<div class="block number" style="background-color: hsl(' . $hue . ', 100%, 50%);">' . $hue . '</div>';
+    }
+    ?>
+    </div>
